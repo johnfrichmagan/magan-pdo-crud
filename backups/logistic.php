@@ -354,7 +354,7 @@ h1 {
 <body>
 <nav>
         <div class="logo-container">
-            <img src="../media/logoone.jpg" alt="Logo" style="max-width: 150px; margin-top: -10px;">
+            <img src="../media/lo.webp" alt="Logo" style="max-width: 150px; margin-top: -10px;">
         </div>
                 <ul class="nav-links">
                     <li><a href="../backups/logistic.php">logistics</a></li>

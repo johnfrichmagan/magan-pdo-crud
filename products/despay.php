@@ -26,7 +26,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: linear-gradient(to bottom, #994d00 675px, #663300 10px);
+    background-image: linear-gradient(to bottom, #ff8533 675px,  #e65c00 10px);
     color: #000000;
     padding: 20px;
 }
@@ -231,7 +231,7 @@
 
 nav {
     flex: 6;
-    background-color: #663300;
+    background-color: black;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -367,12 +367,9 @@ h1 {
 <body> 
     <nav>
         <div class="logo-container">
-            <img src="../media/logo.webp" alt="Logo" style="max-width: 150px; margin-top: -10px;">
+            <img src="../media/lo.webp" alt="Logo" style="max-width: 150px; margin-top: -10px;">
         </div>
-                <ul class="nav-links">
-                    <li><a href="../backups/logistic.php">logistics</a></li>
-                    <li><a href="../public/user/sale.php">Sale</a></li>
-                </ul>
+               
         <div style="text-align: center;">
             <a href="../public/user/reset.php" class="btn btn-warning" style="border-color: black;">Reset Password</a>
             <a href="../public/user/logout.php" class="btn btn-danger mr-3" style="border-color: black;">Log-out</a>
@@ -384,11 +381,11 @@ h1 {
             </nav>
             <hr>
             <div class="slideshow-container">
-        <img class="slides fade" src="../media/1.avif" alt="Image 1">
-        <img class="slides fade" src="../media/2.jpg" alt="Image 2">
-        <img class="slides fade" src="../media/3.jpg" alt="Image 3">
-        <img class="slides fade" src="../media/4.jpg" alt="Image 4">
-        <img class="slides fade" src="../media/5.png" alt="Image 5">
+        <img class="slides fade" src="../media/1.webp" alt="Image 1">
+        <img class="slides fade" src="../media/2.webp" alt="Image 2">
+        <img class="slides fade" src="../media/3.webp" alt="Image 3">
+        <img class="slides fade" src="../media/4.webp" alt="Image 4">
+        <img class="slides fade" src="../media/5.webp" alt="Image 5">
         <div class="navigation">
             <button onclick="prevSlide()">Prev</button>
             <button onclick="nextSlide()">Next</button>

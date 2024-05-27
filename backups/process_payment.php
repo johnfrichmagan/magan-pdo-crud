@@ -1,10 +1,9 @@
 <?php
 // Establish database connection
-
 $host = 'localhost';
-$dbname = 'u593341949_db_rayon';
-$username = 'u593341949_dev_rayon';
-$password = '20221086Rayon';
+$dbname = 's';
+$username = 'root';
+$password = '';
 
 
 $conn = new mysqli($servername, $username, $password, $dbname);
